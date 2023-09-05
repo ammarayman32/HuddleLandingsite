@@ -1,0 +1,234 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+
+.top {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    height: 530px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.logo img {
+    width: 60%;
+    padding: 20px;
+    cursor: pointer;
+}
+.navbar button{
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    padding: 1px 0;
+    margin: 10px 15px;
+    cursor: pointer;
+    box-shadow: grey 5px  5px 5px;
+}
+.navbar button:hover {
+    background-color: #f5f5f5;
+}
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.text {
+width: 800px;
+font-family: 'Poppins', sans-serif;
+}
+.mokup img {
+    width: 80%;
+}
+.start{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 28px;
+    width: 230px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    cursor: pointer;
+}
+.start:hover {
+    background-color: hsl(322, 88%, 73%);
+}
+.container {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 1200px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 15px;
+    height: 650px;
+}
+.teit h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.teit p {
+    font-size: 18px;
+    color: hsl(208, 11%, 55%);
+}
+.teit {
+    width: 850px;
+    margin-left: 130px;
+    font-family: 'Poppins', sans-serif;
+}
+.grow-together img{
+    width: 50%;
+    margin-left: 150px;
+}
+.mid {
+    display: flex;
+    align-items: center;
+    height: 650px;
+    width: 1200px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.describe {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    font-family: 'Poppins', sans-serif;
+    width: 600px;
+}
+.describe p {
+    font-size: 18px;
+    color:hsl(208, 11%, 55%);
+}
+.flowing {
+    width: 50%;
+}
+.flowing img{
+    width: 70%;
+    margin-left: 100px;
+}
+.last { 
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 1200px;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 650px;
+}
+.your-users img {   
+    width: 70%;
+    margin-left: 100px;
+}
+.more {
+    font-family: 'Poppins', sans-serif;
+    width: 800px;
+    margin-left: 100px;
+}
+.more p {
+    font-size: 18px;
+    color:hsl(208, 11%, 55%);
+}
+.feautures {
+    padding: 100px 59px 200px 59px;
+    position: relative;
+}
+.cta {
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-width: 600px;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    bottom: -80px;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cta h2 {
+    padding-bottom: 20px;
+}
+/* Footer */
+
+footer {
+    background-color: hsl(192, 100%, 13%);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 70px 70px 70px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+footer .cotect {
+    max-width: 350px;
+    width: 100%;
+    margin-right: 2rem;
+}
+footer .cotect p {
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start;
+}
+footer .cotect p img {
+    height: 14px;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+footer .logo2 img {
+    height: 26px;
+}
+.footer-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+}
+.footer-links .links {
+    display: flex;
+    flex-direction: column;
+}
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
+footer .social {
+    font-size: 20px;
+}
+footer .social i {
+    padding: 7px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+footer .social i:hover {
+    color: hsl(322, 88%, 73%);
+    border: 1px solid hsl(322, 88%, 73%);
+}
+.copyright {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    font-size: 12px;
+}
